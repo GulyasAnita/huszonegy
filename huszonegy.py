@@ -1,4 +1,4 @@
 #megoldás
 def eredmeny():
     return
-#tesztesetek
+#esetek
