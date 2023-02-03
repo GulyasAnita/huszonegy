@@ -31,9 +31,19 @@ def jatekosVesztettTeszt():
         print("Teszt sikeres. ")
     else:
         print("Teszt megbukott.")
+def jatekosVesztettTeszt2():
+    jatekosLista = [10 , 2, 8, 9]
+    gepLista = [ 5, 4, 2 ]
+
+    if len(jatekosLista) > len(gepLista):
+        print("játékos vesztett")
+    elif len(jatekosLista) == len(gepLista):
+        print("egyenlő lapok")
+    else:
+        print("A teszt sikertelen")
 
 def tesztek():
     jatekosVesztettTeszt()
-
+    jatekosVesztettTeszt2()
 tesztek()
 #esetek
